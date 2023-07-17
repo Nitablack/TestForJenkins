@@ -1,0 +1,19 @@
+{
+  "name": "po",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^114.0.0",
+    "nightwatch": "^2.6.14"
+  },
+  "dependencies": {
+    "geckodriver": "^3.2.0"
+  }
+}
