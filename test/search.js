@@ -8,6 +8,7 @@ module.exports = {
             .waitForElementVisible('css selector','@welcome','Welcome title visible') //вместо элементов используем их псевдонимы
             .assert.textContains('@welcome', 'Добро пожаловать в Википедию', 'Welcome title correct'); //проверка содержимого заголовка
     },
+    
     after(browser){ //хук after на закрытие браузера
         browser.end()
     },
