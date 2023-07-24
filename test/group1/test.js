@@ -7,7 +7,7 @@ module.exports = {
     console.log('Test group 1');
   },
 
-  // disabled
+
   'Disabled Test': ''+function (browser) {
     console.log('Disabled Test Should not print this')
   }
